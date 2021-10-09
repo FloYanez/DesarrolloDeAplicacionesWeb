@@ -1,0 +1,238 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("chantal-garnier-910GanwBoew-unsplash.jpg");
+    /*background-color: rgba(255, 255, 255, 0.8);
+    background-image: url("chantal-garnier-910GanwBoew-unsplash.jpg");*/
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+table.lista td, table.lista th {
+    padding: 10px;
+}
+
+table.lista tr:nth-child(even) {
+    background-color: #fff7e5;
+}
+
+table.lista tr:nth-child(odd) {
+    background-color: white;
+}
+
+table.lista tr:hover {
+    background-color: #ecffdf;
+}
+
+table.lista th {
+  background-color: #00983c;
+  color: white;
+}
+
+table.form th {
+  background-color: #ffb600;
+  color: white;
+}
+
+table.form th, table.form td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+table.form td {
+    background-color: white;
+}
+
+table.form, table.lista {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.banner {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffb600;
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+        text-align: center;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+.white-text{
+    color: white;
+}
+
+div.solid {
+    border-style: solid;
+    border-color: white;
+    padding: 35px;
+    background-color: rgba(1, 1, 1, 0);
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.top-text {
+    vertical-align: top;
+}
+
+.container-column {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-row {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.white-button {
+    color: #ffb600;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.white-button:hover {
+    background-color: #00983c;
+    color: white;
+}
+
+.green-button {
+    color: white;
+    background-color: #00983c;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.green-button-small {
+    color: white;
+    background-color: #00983c;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.green-button:focus, .green-button-small:focus{
+    background-color: #00732d;
+}
+
+.orange-button {
+    color: white;
+    background-color: #ff6449;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.current-page{
+    pointer-events: none;
+    background-color: #00983c;
+    color: white;
+}
+
+.overlay{
+    background-color: #fff;
+    color: #000;
+    font-weight: bolder;
+    mix-blend-mode: screen;
+}
+
+.center-content {
+    margin: auto;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.crop { /* resize */
+    width: 400px;
+    overflow: hidden;
+}
+
+.crop img { /* crop */
+    width: 320px;
+    height: 240px;
+    margin: -75px 0 0 -100px;
+}

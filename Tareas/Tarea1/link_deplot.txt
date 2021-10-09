@@ -1,0 +1,3 @@
+https://users.dcc.uchile.cl/~fyanez/Tarea1/index.html
+
+En el formulario dejé los inputs de size 70 en vez de 100 porque se veía muy feo :(

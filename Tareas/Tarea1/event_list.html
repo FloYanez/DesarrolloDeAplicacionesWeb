@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8" content="text/html">
+    <title>Comidita | Lista de Eventos</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <div class="banner container-row">
+        <div class="container-row">
+            <img src="static/food_bank_white_24dp.svg" alt="logo" width="80px">
+            <h1 class="white-text"> Comidita </h1>
+        </div>
+        <div class="container-row">
+            <a href="index.html" class="white-button">Inicio</a>
+            <a href="register_event.html" class="white-button">Ingresar Evento</a>
+            <a href="event_list.html" class="white-button current-page">Lista de Eventos</a>
+            <a href="statistics.html" class="white-button">Estadísticas</a>
+        </div>
+    </div>
+    <div class="container-column">
+        <div>
+            <h1> Eventos más recientes </h1>
+        </div>
+        <div>
+            <table class="lista">
+                <tr>
+                    <th> Fecha - Hora Inicio </th>
+                    <th> Fecha - Hora Término </th>
+                    <th> Comuna </th>
+                    <th> Sector </th>
+                    <th> Tipo de Comida </th>
+                    <th> Nombre de Contacto</th>
+                    <th> Total Fotos  </th>
+                    <th> Detalles </th>
+                </tr>
+                <tr>
+                    <td> 2021-09-07 12:00 </td>
+                    <td> 2021-09-07 14:00 </td>
+                    <td> La Florida </td>
+                    <td> Vicuña Mackenna </td>
+                    <td> Chilena </td>
+                    <td> Park Jimin </td>
+                    <td> 2 </td>
+                    <td>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="btn1" class="green-button-small"> Ver detalles </button>
+
+                        <!-- The Modal -->
+                        <div id="modal1" class="modal">
+
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" id="span1">&times;</span>
+                            <div class="container-row">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            Región:
+                                        </td>
+                                        <td>
+                                            Región Metropolitana de Santiago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Comuna:
+                                        </td>
+                                        <td>
+                                            La Florida
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Nombre:
+                                        </td>
+                                        <td>
+                                            Park Jimin
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Email:
+                                        </td>
+                                        <td>
+                                            jimin@bts.cl
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Inicio:
+                                        </td>
+                                        <td>
+                                            2021-09-07 12:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Termino:
+                                        </td>
+                                        <td>
+                                            2021-09-07 14:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tipo:
+                                        </td>
+                                        <td>
+                                            Chilena
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fotos:
+                                        </td>
+                                        <td>
+                                            <div class="crop"> <img src="static/wom-creative-studio-verona-D8YWzfJ8d4w-unsplash.jpg"> </div>
+                                            <div class="crop"> <img src="static/delfina-iacub-JDAs0hvaEVI-unsplash.jpg"> </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                              </div>
+                          </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 2021-09-06 17:00 </td>
+                    <td> 2021-09-06 21:00 </td>
+                    <td> Santiago </td>
+                    <td> Plaza </td>
+                    <td> Pizzas </td>
+                    <td> Frida Gahto </td>
+                    <td> 1 </td>
+                    <td>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="btn2" class="green-button-small"> Ver detalles </button>
+
+                        <!-- The Modal -->
+                        <div id="modal2" class="modal">
+
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" id="span2">&times;</span>
+                            <div class="container-row">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            Región:
+                                        </td>
+                                        <td>
+                                            Región Metropolitana de Santiago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Comuna:
+                                        </td>
+                                        <td>
+                                            Santiago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Nombre:
+                                        </td>
+                                        <td>
+                                            Frida Gahto
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Email:
+                                        </td>
+                                        <td>
+                                            frida@gahto.cl
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Inicio:
+                                        </td>
+                                        <td>
+                                            2021-09-06 17:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Termino:
+                                        </td>
+                                        <td>
+                                            2021-09-06 21:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tipo:
+                                        </td>
+                                        <td>
+                                            Pizzas
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fotos:
+                                        </td>
+                                        <td>
+                                            <img src="static/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg" width="320" height="240">
+                                        </td>
+                                    </tr>
+                                </table>
+                              </div>
+                          </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 2021-09-04 12:00 </td>
+                    <td> 2021-09-04 15:00 </td>
+                    <td> Ñuñoa </td>
+                    <td> Estadio Nacional </td>
+                    <td> India </td>
+                    <td> Rolanda Sultana </td>
+                    <td> 1 </td>
+                    <td>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="btn3" class="green-button-small"> Ver detalles </button>
+
+                        <!-- The Modal -->
+                        <div id="modal3" class="modal">
+
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" id="span3">&times;</span>
+                            <div class="container-row">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            Región:
+                                        </td>
+                                        <td>
+                                            Región Metropolitana de Santiago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Comuna:
+                                        </td>
+                                        <td>
+                                            Ñuñoa
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Nombre:
+                                        </td>
+                                        <td>
+                                            Rolanda Sultana
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Email:
+                                        </td>
+                                        <td>
+                                            rolanda@sultana.cl
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Inicio:
+                                        </td>
+                                        <td>
+                                            2021-09-04 12:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Termino:
+                                        </td>
+                                        <td>
+                                            2021-09-04 15:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tipo:
+                                        </td>
+                                        <td>
+                                            India
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fotos:
+                                        </td>
+                                        <td>
+                                            <img src="static/amirali-mirhashemian-ZSukCSw5VV4-unsplash.jpg" width="320" height="240">
+                                        </td>
+                                    </tr>
+                                </table>
+                              </div>
+                          </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 2021-09-23 13:00 </td>
+                    <td> 2021-09-23 20:00 </td>
+                    <td> Providencia </td>
+                    <td> Tobalaba </td>
+                    <td> Sándwiches </td>
+                    <td> Lilibeth Gahto </td>
+                    <td> 1 </td>
+                    <td>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="btn4" class="green-button-small"> Ver detalles </button>
+
+                        <!-- The Modal -->
+                        <div id="modal4" class="modal">
+
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" id="span4">&times;</span>
+                            <div class="container-row">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            Región:
+                                        </td>
+                                        <td>
+                                            Región Metropolitana de Santiago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Comuna:
+                                        </td>
+                                        <td>
+                                            Las Condes
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Nombre:
+                                        </td>
+                                        <td>
+                                            Lilibeth Gahto
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Email:
+                                        </td>
+                                        <td>
+                                            lili@gahto.cl
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Inicio:
+                                        </td>
+                                        <td>
+                                            2021-09-23 13:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Termino:
+                                        </td>
+                                        <td>
+                                            2021-09-23 20:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tipo:
+                                        </td>
+                                        <td>
+                                            Sándwiches
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fotos:
+                                        </td>
+                                        <td>
+                                            <img src="static/eaters-collective-Gg5-K-mJwuQ-unsplash.jpg" width="320" height="240">
+                                        </td>
+                                    </tr>
+                                </table>
+                              </div>
+                          </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 2021-09-30 17:00 </td>
+                    <td> 2021-09-30 21:00 </td>
+                    <td> Las Condes </td>
+                    <td> Colón </td>
+                    <td> Sushi </td>
+                    <td> Gator Cochino </td>
+                    <td> 1 </td>
+                    <td>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="btn5" class="green-button-small"> Ver detalles </button>
+
+                        <!-- The Modal -->
+                        <div id="modal5" class="modal">
+
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" id="span5">&times;</span>
+                              <div class="container-row">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            Región:
+                                        </td>
+                                        <td>
+                                            Región Metropolitana de Santiago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Comuna:
+                                        </td>
+                                        <td>
+                                            Las Condes
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Nombre:
+                                        </td>
+                                        <td>
+                                            Gator Cochino
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Email:
+                                        </td>
+                                        <td>
+                                            gator@cochino.cl
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Inicio:
+                                        </td>
+                                        <td>
+                                            2021-09-30 17:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Termino:
+                                        </td>
+                                        <td>
+                                            2021-09-30 21:00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tipo:
+                                        </td>
+                                        <td>
+                                            Sushi
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fotos:
+                                        </td>
+                                        <td>
+                                            <img src="static/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg" width="320" height="240">
+                                        </td>
+                                    </tr>
+                                </table>
+                              </div>
+                          </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<script src="event_list.js"></script>
+</body>
+</html>

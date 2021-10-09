@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+    <!-- Codigo css -->
+    <style>
+        body {
+            background-color: #ff413e;
+        }
+
+        .bonito {
+            background-color: rgb(0,0,0);
+            color: white;
+        }
+
+        .peligro {
+            color: yellow;
+            border-bottom: 1px solid black;
+        }
+
+        .small {
+            font-size: 10px;
+        }
+
+        .big {
+            font-size: 50px;
+        }
+
+        #header {
+            font-size: 1px;
+        }
+    </style>
+</head>
+<body class="bonito" style="">
+<div id="header">Hola que tal pagina web bonita</div>
+<h1 class="peligro small big">Encuesta software premium</h1>
+
+<form action="" method="post">
+Nombre usuario: <input type="text" minlength="4" maxlength="50" name="usuario-1" >
+<br>
+Password: <input type="password" name="pass">
+<br>
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

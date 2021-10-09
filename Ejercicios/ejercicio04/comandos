@@ -1,0 +1,11 @@
+
+python -m http.server 8000 --bind 127.0.0.1
+---------------------------------------
+---------------------------------------
+
+Iniciar XAMPP Control Panel
+    Iniciar Apache
+    Iniciar MySQL
+Ir a proyecto de python
+    Inicializar server en puerto 10000
+        py -m http.server --bind localhost --cgi 10000

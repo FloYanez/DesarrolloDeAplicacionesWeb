@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title> Ejercicio 2 </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style01.css">
+
+</head>
+<body>
+  <div class="centered font20 solid">
+    <div>
+      <h1 class="white-text"> Encuesta a Domicilio </h1>
+    </div>
+    <form onsubmit="return validateForm();">
+      <table class="">
+        <tr>
+          <td>
+            <label for="name" class="white-text center">Nombre:</label>
+          </td>
+          <td>
+            <input type="text" id="name" name="nombre" placeholder="Park Jimin" minlength="4" maxlength="50" required class="font20">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label class="white-text">Dirección:</label>
+          </td>
+          <td>
+            <input type="text" id="address" name="direccion" minlength="5" required class="font20">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label class="white-text">Tipo encuesta:</label><br>
+          </td>
+          <td>
+            <select name="tipo" id="type" required class="font20">
+              <option value="">----------------------------------</option>
+              <option value="0">Pública</option>
+              <option value="1">Privada</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="top-text">
+            <label class="white-text">Comentarios:</label>
+          </td>
+          <td>
+            <textarea id="comments" name="comentarios" rows="3" cols="21" maxlength="1000" class="font20"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label class="white-text">Fotos:</label>
+          </td>
+          <td>
+            <input type="file" id="photos" name="archivo" required>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="centered-text">
+            <br>
+            <input type="submit" value="Enviar" class="" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <script>
+    function validateForm() {
+      let name = document.getElementById("name").value;
+      let address = document.getElementById("address").value;
+      let type = document.getElementById("type").value;
+      let comments = document.getElementById("comments").value;
+      let photos = document.getElementById("photos");
+      
+      let errores ="Su formulario falló en:\n";
+      let nameRegex = /^[a-zA-z ]*$/;
+      let addressRegex = /^[a-zA-Z0-9\s,'-]*$/;
+      if(name.length < 4 || name.length > 50 || !nameRegex.test(name)){
+        errores += "Nombre\n";
+      }
+      if(address.length < 5 || !addressRegex.test(address)){
+        errores += "Dirección\n";
+      }
+      if(type != "0" && type != "1"){
+        errores += "Tipo de encuesta\n";
+      }
+      if(comments > 1000){
+        errores += "Comentarios\n";
+      }
+      if (photos.files.length == 0 || !photos.value.includes(".jpg") && !photos.value.includes(".png")){
+        errores += "Fotos\n";
+      }
+
+      if(errores != "Su formulario falló en:\n"){
+        alert(errores);
+        return false;
+      }else{
+        return true;
+      }
+    }
+  </script>
+
+</body>
+</html>

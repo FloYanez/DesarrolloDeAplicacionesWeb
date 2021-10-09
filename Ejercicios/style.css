@@ -1,0 +1,364 @@
+html,
+body {
+    background-image: url("../aperture-vintage-5L7LmNvO7r4-unsplash.jpg");
+    background-size: cover;
+    /*background: linear-gradient(270deg, #bbee9d, #ffc192);*/
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.login {
+    color: #46BD89;
+    align-content: center;
+}
+
+.register {
+    color: #F56991;
+    align-content: center;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.top-text {
+    vertical-align: top;
+}
+
+.center {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+input {
+    border-radius: 12px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.button-green, .button-pink {
+    color: white;
+    border: none;
+    border-radius: 12px;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.button-green {
+    background-color: #46BD89;
+}
+
+.white-button {
+    border: none;
+    border-radius: 12px;
+}
+
+.button-pink {
+    background-color: #F56991;
+}
+
+.img-container {
+    text-align: center;
+    /*object-fit: scale-down;*/
+}
+
+.border-green {
+    border-color: #46bd89;
+}
+
+.border-pink {
+    border-color: #f56991;
+}
+
+.opcion {
+    color: #f56991;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.input-group.md-form.form-sm.form-1 input {
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #f56991;
+}
+
+.barra-de-busqueda {
+    background-color: white;
+    outline: none;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #CCC;
+    outline: 0;
+    border-inline: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-nav > li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.overlay {
+    bottom: 0;
+}
+
+.overlay a, .overlay button {
+    background-color: #fff;
+    color: #000;
+    font-weight: bolder;
+    mix-blend-mode: screen;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.content-box {
+    color: white;
+    background-color: rgba(0, 10, 79, 0.35);
+    border-radius: 12px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.flex-container > div {
+    background-color: rgba(0, 10, 79, 0.35);
+    color: white;
+    width: auto;
+    height: inherit;
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.avatar-container {
+    border-radius: 50%;
+}
+
+td {
+    text-align: left;
+    padding-right: 15px;
+}
+
+#searchbar {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#basic-addon2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#email, #contraseña, #old_password, #new_password, #new_apodo, #apodo {
+    border-radius: 20px;
+}
+
+.file-browser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.file-browser > div {
+    width: auto;
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu-right > div {
+    margin-left: 30px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+.button-pink:active {
+    background-color: #f53e63;
+}
+
+.button-green:active {
+    background-color: #00ae69;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+#file-browser td, #file-browser th {
+    border-bottom: 1px solid;
+    border-color: rgba(255, 255, 255, 0.51);
+    vertical-align: center;
+    padding-top: 10px;
+}
+
+#file-browser table {
+    border-spacing: 15px;
+}
+
+.site-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: stretch;
+}
+
+.site-content > div {
+    padding: 10px;
+    height: 100%;
+}
+
+.center-content {
+    margin: auto;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+hr.blanco {
+    border: 1px solid rgba(255, 255, 255, 0.72);
+}
+
+.file-preview {
+    border: none;
+}
+
+.button-round {
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: fit-content;
+    padding: 0 5px 0 5px;
+}
+
+.green {
+    background-color: #46bd89;
+}
+
+.pink {
+    background-color: #f56991;
+}
+
+.pink:active {
+    background-color: #f53e63;
+}
+
+.green:active {
+    background-color: #00ae69;
+}
+
+.folder-tree {
+    color: white;
+}
+
+.folder-tree:active {
+    color: #46bd89;
+}
+
+.inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.checkboxes {
+    text-align: center;
+}
+
+.checkboxes input {
+    margin: 0px 0px 0px 0px;
+}
+
+.checkboxes label {
+    margin: 0px 20px 0px 3px;
+}

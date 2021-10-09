@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8" content="text/html">
+    <title>Comidita | Ingresar Evento</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="RegionesYcomunas.js"></script>
+</head>
+<body>
+    <div class="banner container-row">
+        <div class="container-row">
+            <img src="static/food_bank_white_24dp.svg" alt="logo" width="80px">
+            <h1 class="white-text"> Comidita </h1>
+        </div>
+        <div class="container-row">
+            <a href="index.html" class="white-button">Inicio</a>
+            <a href="register_event.html" class="white-button current-page">Ingresar Evento</a>
+            <a href="event_list.html" class="white-button">Lista de Eventos</a>
+            <a href="statistics.html" class="white-button">Estadísticas</a>
+        </div>
+    </div>
+    <div>
+        <form>
+            <div class="container-column">
+                <table class="form">
+                    <tr>
+                        <th colspan="3">
+                            ¿Dónde?
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="regiones">Región:</label>
+                        </td>
+                        <td colspan="2">
+                            <select id="regiones" required></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comunas">Comuna:</label>
+                        </td>
+                        <td colspan="2">
+                            <select id="comunas" required></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sector">Sector:</label>
+                        </td>
+                        <td colspan="2">
+                            <input id="sector" type="text" size="70" maxlength="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            ¿Quién ofrece?
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre:</label>
+                        </td>
+                        <td colspan="2">
+                            <input type="text" id="nombre" size="70" maxlength="200" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td colspan="2">
+                            <input id="email" type="email" size="70" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="celular">Celular:</label>
+                        </td>
+                        <td colspan="2">
+                            <input id="celular" type="tel" size="15" maxlength="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">
+                            Redes Sociales:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="twitter">Twitter:</label>
+                        </td>
+                        <td>
+                            <input id="twitter" type="text" size="50" placeholder="twitter.com/BTS_twt">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="instagram">Instagram:</label>
+                        </td>
+                        <td>
+                            <input id="instagram" type="text" size="50" placeholder="instagram.com/bts.bighitofficial/">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="facebook">Facebook:</label>
+                        </td>
+                        <td>
+                            <input id="facebook" type="text" size="50" placeholder="facebook.com/bangtan.official">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tiktok">TikTok:</label>
+                        </td>
+                        <td>
+                            <input id="tiktok" type="text" size="50" placeholder="tiktok.com/@bts_official_bighit">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="youtube">Youtube:</label>
+                        </td>
+                        <td>
+                            <input id="youtube" type="text" size="50" placeholder="youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            ¿Cuándo y qué se ofrece?
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="inicio">Día y hora de inicio:</label>
+                        </td>
+                        <td colspan="2">
+                            <input id="inicio" size="20" required placeholder="AAAA-MM-DD HH:MM">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="termino">Día y hora de término:</label>
+                        </td>
+                        <td colspan="2">
+                            <input id="termino" size="20" required placeholder="AAAA-MM-DD HH:MM">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="descripcion">Descripción:</label>
+                        </td>
+                        <td colspan="2">
+                            <textarea id="descripcion" cols="50" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tipo">Tipo:</label>
+                        </td>
+                        <td colspan="2">
+                            <select id="tipo" required>
+                                <option value=""> Elegir tipo de comida </option>
+                                <option value="Al Paso"> Al Paso </option>
+                                <option value="Alemana"> Alemana </option>
+                                <option value="Árabe"> Árabe </option>
+                                <option value="Argentina"> Argentina </option>
+                                <option value="Asiática"> Asiática </option>
+                                <option value="Australiana"> Australiana </option>
+                                <option value="Brasileña"> Brasileña </option>
+                                <option value="Café y Snacks"> Café y Snacks </option>
+                                <option value="Carnes"> Carnes </option>
+                                <option value="Casera"> Casera </option>
+                                <option value="Chilena"> Chilena </option>
+                                <option value="China"> China </option>
+                                <option value="Cocina de Autor"> Cocina de Autor </option>
+                                <option value="Comida Rápida"> Comida Rápida </option>
+                                <option value="Completos"> Completos </option>
+                                <option value="Coreana"> Coreana </option>
+                                <option value="Cubana"> Cubana </option>
+                                <option value="Española"> Española </option>
+                                <option value="Exótica"> Exótica </option>
+                                <option value="Francesa"> Francesa </option>
+                                <option value="Gringa"> Gringa </option>
+                                <option value="Hamburguesa"> Hamburguesa </option>
+                                <option value="Helados"> Helados </option>
+                                <option value="India"> India </option>
+                                <option value="Internacional"> Internacional </option>
+                                <option value="Italiana"> Italiana </option>
+                                <option value="Latinoamericana"> Latinoamericana </option>
+                                <option value="Mediterránea"> Mediterránea </option>
+                                <option value="Mexicana"> Mexicana </option>
+                                <option value="Nikkei"> Nikkei </option>
+                                <option value="Parrillada"> Parrillada </option>
+                                <option value="Peruana"> Peruana </option>
+                                <option value="Pescados y Mariscos"> Pescados y Mariscos </option>
+                                <option value="Picoteos"> Picoteos </option>
+                                <option value="Pizzas"> Pizzas </option>
+                                <option value="Pollos y Pavos"> Pollos y Pavos </option>
+                                <option value="Saludable"> Saludable </option>
+                                <option value="Sándwiches"> Sándwiches </option>
+                                <option value="Suiza"> Suiza </option>
+                                <option value="Japonesa"> Japonesa </option>
+                                <option value="Sushi"> Sushi </option>
+                                <option value="Tapas"> Tapas </option>
+                                <option value="Thai"> Thai </option>
+                                <option value="Vegana"> Vegana </option>
+                                <option value="Vegetariana"> Vegetariana </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            <label for="foto1">Foto:</label>
+                        </td>
+                        <td colspan="2" id="fotos">
+                            <input type="file" id="foto1" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button" class="green-button-small" onclick="addPhoto()" id="agregar">Agregar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td colspan="3" class="centered-text">
+                          <!-- Trigger/Open The Modal -->
+                          <button class="orange-button" onclick="return validateForm()">Validar</button>
+                          <button id="myBtn" class="green-button" type="button" hidden>Enviar</button>
+                          <input type="reset" value="Reset"  class="green-button" />
+                      </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>¿Está seguro que desea agregar este evento?</p>
+                  <input type="submit" value="Sí, estoy seguro" class="green-button" id="enviar"/>
+                  <button class="green-button" id="close" type="button"> No, quiero volver al formulario </button>
+              </div>
+            </div>
+
+
+        </form>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title> Ejercicio 1 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style01.css">
+
+</head>
+<body>
+<h1> Encuesta a Domicilio </h1>
+<form>
+
+  <label>Nombre persona:</label><br>
+  <input type="text" id="nombre" name="nombre" placeholder="Park Jimin" minlength="4" maxlength="50"><br>
+
+  <label>Dirección:</label><br>
+  <input type="email" id="email_addr" name="direccion" minlength="5"><br>
+
+  <label>Tipo encuesta:</label><br>
+   <select name="tipo" id="tipo">
+    <option value="0">Pública</option>
+    <option value="1">Privada</option>
+  </select><br>
+
+  <label>Comentarios:</label><br>
+  <textarea id="comentarios" name="comentarios" rows="4" cols="30" maxlength="1000"></textarea><br>
+  
+  <label>Fotos documentos:</label><br>
+  <input type="file" id="archivo" name="archivo"><br><br>
+
+  <input type="submit" value="Enviar" /> 
+</form>
+</body>
+</html>

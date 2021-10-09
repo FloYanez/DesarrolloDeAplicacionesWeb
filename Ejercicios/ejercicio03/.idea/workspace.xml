@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="726bf1da-f027-4e2e-a3e3-ebd70976f6c9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ProjectId" id="1ymIQMrI9NhdkbhjxymGHp9Rlnn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726bf1da-f027-4e2e-a3e3-ebd70976f6c9" name="Default Changelist" comment="" />
+      <created>1632850321974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632850321974</updated>
+      <workItem from="1632850338260" duration="2522000" />
+      <workItem from="1633739134824" duration="8393000" />
+      <workItem from="1633794405013" duration="862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1128" y="215" key="#SQL_Dialects" timestamp="1633744089511">
+      <screen x="-1440" y="127" width="1440" height="860" />
+    </state>
+    <state x="-1128" y="215" key="#SQL_Dialects/0.0.1366.728/-1440.127.1440.860@-1440.127.1440.860" timestamp="1633744089511" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633745736171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1440.127.1440.860@0.0.1366.728" timestamp="1633745736171" />
+    <state x="-963" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632851099326">
+      <screen x="-1440" y="127" width="1440" height="860" />
+    </state>
+    <state x="-963" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1440.127.1440.860@-1440.127.1440.860" timestamp="1632851099326" />
+    <state x="-1219" y="199" key="SettingsEditor" timestamp="1633739404572">
+      <screen x="-1440" y="127" width="1440" height="860" />
+    </state>
+    <state x="-1219" y="199" key="SettingsEditor/0.0.1366.728/-1440.127.1440.860@-1440.127.1440.860" timestamp="1633739404572" />
+    <state x="-1024" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1633739141513">
+      <screen x="-1440" y="127" width="1440" height="860" />
+    </state>
+    <state x="-1024" y="380" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.127.1440.860@-1440.127.1440.860" timestamp="1633739141513" />
+  </component>
+</project>
